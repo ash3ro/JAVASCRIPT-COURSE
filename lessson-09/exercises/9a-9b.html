@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 exercises</title>
+
+    <style>
+      body {
+        background-color: lightsteelblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button>9a</button>
+    <button class="js-b-button">9b</button>
+
+    <script>
+      console.log(document.querySelector('button'));
+
+      document.querySelector('.js-b-button')
+        .innerHTML = '9b done!';
+
+    /*
+    basic mode for the 'document.querySelector' code:
+
+    document.querySelector('.js-b-button').innerHTML = '9b done!';
+    */ 
+   
+    </script>
+  </body>
+</html>
