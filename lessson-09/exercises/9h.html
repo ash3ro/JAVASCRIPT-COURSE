@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>09 exercise</title>
+
+    <style>
+      body {
+        background-color: lightsteelblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input class="js-input" 
+      onkeyup="
+        const inputElement = document.querySelector('.js-input');
+
+        document.querySelector('.js-message')
+          .innerHTML = inputElement.value;
+      ">
+
+    <pc class="js-message"></p>
+  </body>
+</html>
